@@ -730,30 +730,6 @@ const products: Product[] = [
       weight: "4.05 kg",
     },
   },
-
-  {
-    id: 28,
-    name: "Sony PlayStation 5 Slim",
-    description:
-      "The PlayStation 5 Slim offers next-generation graphics with Ray Tracing support, fast loading times with its custom SSD, and exclusive games that define the platform.",
-    brand: "Sony",
-    model: "CFI-1015A",
-    img: "https://firebasestorage.googleapis.com/v0/b/formacao-dev.appspot.com/o/lancamentos%2Fgam3rstore%2Fps5-slim.png?alt=media&token=ed2ca61f-61c6-46bf-bc75-b4155132ca97",
-    score: 4.9,
-    videoReview: "https://www.youtube.com/embed/bMFC-TM-t5E",
-    tags: ["Nova Geração", "Ray Tracing", "Exclusivos"],
-    priceBase: 3999.99,
-    pricePromotional: 3499.99,
-    smallerPrice: 2999.99,
-    biggerPrice: 5999.99,
-    priceAverage: 3899.99,
-    specifications: {
-      highlight: "Custom SSD",
-      CPU: "AMD Ryzen Zen 2 8 core",
-      Storage: "1TB SSD",
-      weight: "4.05 kg",
-    },
-  },
 ];
 
 export default products;

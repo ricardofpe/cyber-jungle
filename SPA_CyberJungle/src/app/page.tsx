@@ -3,7 +3,7 @@ import { products } from "@/core";
 
 export default function Home() {
   return (
-    <div className="flex gap-5 flex-wrap">
+    <div className="grid grid-cols-4 gap-5 container">
       {products.map((product) => (
         <ProductItem key={product.id} product={product} />
       ))}
