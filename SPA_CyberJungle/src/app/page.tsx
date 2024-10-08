@@ -1,3 +1,4 @@
+"use client";
 import ProductItem from "@/components/product/ProductItem";
 import useProducts from "@/data/hooks/useProducts";
 

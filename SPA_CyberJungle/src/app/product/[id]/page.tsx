@@ -1,3 +1,4 @@
+"use client";
 import useProducts from "@/data/hooks/useProducts";
 
 export default function PageProduct(props: any) {
