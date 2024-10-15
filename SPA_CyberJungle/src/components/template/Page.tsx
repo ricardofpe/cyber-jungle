@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 
 export interface PageProps {
@@ -32,6 +33,7 @@ export default function Page(props: PageProps) {
         >
           {props.children}
         </main>
+        {props.hideFooter ? null : <Footer />}
       </div>
     </div>
   );

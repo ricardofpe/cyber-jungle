@@ -50,7 +50,7 @@ export default function ProductItem(props: ProductItemProps) {
           }}
         >
           <IconShoppingCartPlus size={20} />
-          <span className="font-semibold">Adicionar</span>
+          <span className="font-semibold">Add</span>
         </button>
       </div>
     </Link>

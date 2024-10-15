@@ -4,7 +4,7 @@ import logo from "../../public/cyber-jungle-logo.png";
 
 export default function Logo() {
   return (
-    <Link href="/" className="flex items-center gap-3">
+    <Link href="/" className="flex items-center">
       <Image src={logo} height={65} alt="logo" />
       <span className="text-purple-200 font-semibold">Cyber Jungle</span>
     </Link>
